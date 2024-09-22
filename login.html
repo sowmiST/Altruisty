@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - JinStore</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>JinStore</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Fruits & Vegetables</a></li>
+                    <li><a href="#">Beverages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="account">
+                <a href="#">Sign In</a>
+                <a href="#">Cart</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="login-container">
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username or email address</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <div class="form-actions">
+                    <label>
+                        <input type="checkbox" name="remember"> Remember me
+                    </label>
+                    <a href="#">Lost your password?</a>
+                </div>
+
+                <button type="submit">Log in</button>
+            </form>
+            <p>Don't have an account? <a href="#">Register</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="newsletter">
+                <p>Join our newsletter for £10 off</p>
+                <input type="email" placeholder="Enter your email address">
+                <button>SEND</button>
+            </div>
+            <div class="footer-info">
+                <div>
+                    <h4>Do You Need Help?</h4>
+                    <p>Contact us at: <strong>0800 300 353</strong></p>
+                    <p>Email: info@example.com</p>
+                </div>
+                <div>
+                    <h4>Make Money with Us</h4>
+                    <ul>
+                        <li>Sell on JinStore</li>
+                        <li>Become an Affiliate</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Let Us Help You</h4>
+                    <ul>
+                        <li>Accessibility Statement</li>
+                        <li>Your Orders</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="login.js"></script>
+</body>
+</html>
